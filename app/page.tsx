@@ -1,6 +1,8 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import { HeroParallaxDemo } from "@/components/HeroParalax";
+import { CometCard } from "@/components/ui/comet-card";
+
 
 export default function Home() {
   return (
@@ -8,6 +10,10 @@ export default function Home() {
       <div className="max-w-7xl w-full">
       <Hero/>
       <Grid/>
+      <div className="min-h-screen flex items-center justify-center bg-[#0A0B1E]">
+
+  
+</div>
     </div>
     </main>
     
